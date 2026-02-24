@@ -161,6 +161,11 @@ FFMPEG_COMMON_ARGS = \
 	--disable-safe-bitstream-reader \
 	\
 	--disable-all \
+    --enable-encoder=png \
+    --enable-encoder=image2 \
+    --enable-encoder=mjpeg \
+    --enable-demuxer=image2 \
+    --enable-muxer=image2 \
 	--enable-ffmpeg \
 	--enable-avcodec \
 	--enable-avformat \
